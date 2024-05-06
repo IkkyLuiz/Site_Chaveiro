@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaveiro 24 Horas - Seu Chaveiro de Confiança!</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chaveiro 24 Horas</h1>
+        <p>Soluções rápidas e confiáveis para suas necessidades em chaves e fechaduras.</p>
+    </header>
+
+    <main>
+        <section class="contato">
+            <h2>Entre em contato conosco!</h2>
+            <form id="formularioContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="servico">Serviço desejado:</label>
+                <select id="servico" name="servico" required>
+                    <option value="copia_chave">Cópia de Chave</option>
+                    <option value="abertura_porta">Abertura de Porta</option>
+                    <option value="troca_fechadura">Troca de Fechadura</option>
+                    <option value="visita_tecnica">Visita Técnica</option>
+                    <option value="reparo_cadeado">Reparo de Cadeado</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="servicos">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Cópia de chaves</li>
+                <li>Abertura de portas</li>
+                <li>Troca de fechaduras</li>
+                <li>Visita técnica</li>
+                <li>Reparo de cadeados</li>
+                <li>Outros serviços</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chaveiro 24 Horas</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Chaveiro+24+Horas+Betim">Localização</a>
+        <a href="tel:+5531999999999">Ligue agora!</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
